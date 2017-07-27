@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest"
+               em:id="emoticons-kolobok@addons.instantbird.org"
+               em:name="KOLOBOK emoticons (ICQ6)"
+			   em:description="KOLOBOK emoticons from ICQ6 for Instantbird."
+               em:version="1.1.2"
+               em:creator="Mikk">
+    <em:homepageURL>http://mikk.own.cz/instantbird/</em:homepageURL>
+	<em:iconURL>chrome://kolobok/skin/icon_godfather.png</em:iconURL>
+	
+	<em:localized>
+		<Description>
+			<em:locale>en-US</em:locale>
+			<em:name>KOLOBOK emoticons (ICQ6)</em:name>
+			<em:creator>Mikk</em:creator>
+			<em:description>KOLOBOK emoticons from ICQ6 for Instantbird.</em:description>
+		</Description>
+	</em:localized>
+	
+	<em:localized>
+		<Description>
+			<em:locale>cs</em:locale>
+			<em:name>KOLOBOK emoticons (ICQ6)</em:name>
+			<em:creator>Mikk</em:creator>
+			<em:description>Smajlíky KOLOBOK z ICQ6 pro Instantbird.</em:description>
+		</Description>
+	</em:localized>
+	
+	<em:localized>
+		<Description>
+			<em:locale>sk</em:locale>
+			<em:name>KOLOBOK emotikons (ICQ6)</em:name>
+			<em:creator>Mikk</em:creator>
+			<em:description>Smajlíky KOLOBOK z ICQ6 pre Instantbird.</em:description>
+		</Description>
+	</em:localized>
+	
+    <em:targetApplication>
+      <Description>
+        <em:id>{33cb9019-c295-46dd-be21-8c4936574bee}</em:id>
+        <em:minVersion>0.2b2</em:minVersion>
+        <em:maxVersion>0.2.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>
